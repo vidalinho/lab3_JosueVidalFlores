@@ -11,10 +11,10 @@ package lab.pkg3_josuevidal;
  */
 public class Objetos {
 
-    private void talisman(){
-        
-    {
+    private void talisman() {
 
-    
+        
+
+        
     }
 }
