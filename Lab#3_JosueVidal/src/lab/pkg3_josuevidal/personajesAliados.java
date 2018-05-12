@@ -15,10 +15,14 @@ public class personajesAliados extends Personajes {
     private String colorPiel;
     private String colorCabello;
 
-    public personajesAliados(String colorPiel, String colorCabello, int HP, int AP, int AD, int Eficacia, int Pc, int Velocidad, int edad, String nombre, int peso, int estatura) {
-        super(HP, AP, AD, Eficacia, Pc, Velocidad, edad, nombre, peso, estatura);
+    public personajesAliados(String colorPiel, String colorCabello, int HP, int AP, int AD, int Eficacia, int Pc, int Velocidad, int edad, String nombre, int peso, int estatura, String grito, String raza) {
+        super(HP, AP, AD, Eficacia, Pc, Velocidad, edad, nombre, peso, estatura, grito, raza);
         this.colorPiel = colorPiel;
         this.colorCabello = colorCabello;
+    }
+
+   
+    public personajesAliados() {
     }
 
     

@@ -21,10 +21,10 @@ public class Personajes {
     private String nombre;
     private int peso;
     private int estatura;
+    private String grito;
+    private String raza;
 
-    public Personajes() {
-    }
-  public Personajes(int HP, int AP, int AD, int Eficacia, int Pc, int Velocidad, int edad, String nombre, int peso, int estatura) {
+    public Personajes(int HP, int AP, int AD, int Eficacia, int Pc, int Velocidad, int edad, String nombre, int peso, int estatura, String grito, String raza) {
         this.HP = HP;
         this.AP = AP;
         this.AD = AD;
@@ -35,7 +35,28 @@ public class Personajes {
         this.nombre = nombre;
         this.peso = peso;
         this.estatura = estatura;
+        this.grito = grito;
+        this.raza = raza;
     }
+
+    public String getGrito() {
+        return grito;
+    }
+
+    public void setGrito(String grito) {
+        this.grito = grito;
+    }
+
+    public String getRaza() {
+        return raza;
+    }
+
+    public void setRaza(String raza) {
+        this.raza = raza;
+    }
+    public Personajes() {
+    }
+ 
    
 
    
